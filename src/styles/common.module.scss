@@ -1,0 +1,42 @@
+.globalApp {
+  max-width: 1440px;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0rem 0rem 0.5rem;
+
+
+  .calendarContainer {
+
+    span {
+      margin-left: 0.5rem;
+    }
+
+  }
+
+  .userContainer {
+    margin-left: 2rem;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .timeContainer {
+    margin-left: 2rem;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}
